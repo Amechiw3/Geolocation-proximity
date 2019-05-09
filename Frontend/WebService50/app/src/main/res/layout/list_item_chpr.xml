@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/tvIDCHPRLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textSize="16sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-500dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/tvTituloCHPRLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titulo:"
+        android:textSize="16sp"
+        android:layout_below="@+id/tvIDCHPRLabel" />
+
+    <TextView
+        android:id="@+id/tvTituloCHPR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titulo"
+        android:textSize="16sp"
+        android:layout_alignTop="@+id/tvTituloCHPRLabel"
+        android:layout_alignStart="@+id/tvUsuarioCHPR" />
+
+    <TextView
+        android:id="@+id/tvUsuariosCHPRLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuarios:"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvTituloCHPR"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tvUsuarioCHPR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:textSize="16sp"
+        android:layout_toEndOf="@+id/tvUsuariosCHPRLabel"
+        android:layout_below="@+id/tvUsuariosCHPRLabel"
+        android:layout_marginStart="5dp" />
+    <TextView
+        android:id="@+id/tvUsuario2CHPR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tvUsuarioCHPR"
+        android:layout_alignStart="@+id/tvUsuarioCHPR" />
+
+
+
+
+</RelativeLayout>

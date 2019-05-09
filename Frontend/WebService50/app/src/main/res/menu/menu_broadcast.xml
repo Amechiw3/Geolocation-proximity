@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.odm.webservice50.Tablas.Broadcast.Nuevo_Broadcast_Activity">
+
+    <item android:id="@+id/menuAcceptarBroad"
+        android:title="Acceptar"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menuPrincipalBroad"
+        android:title="Cancelar"
+        app:showAsAction="never" />
+</menu>

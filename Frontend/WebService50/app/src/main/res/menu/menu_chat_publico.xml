@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.odm.webservice50.Tablas.chpublico.ChatPublicoFragment">
+
+    <item android:id="@+id/menuAcceptarChPub"
+        android:title="Acceptar"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menuPrincipalChPub"
+        android:title="Cancelar"
+        app:showAsAction="never" />
+
+</menu>

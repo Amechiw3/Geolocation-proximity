@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.odm.webservice50.Main.MainMenuActivity">
+
+    <item
+        android:id="@+id/action_acercade"
+        android:orderInCategory="99"
+        android:title="@string/Acerca_de"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_perfil"
+        android:orderInCategory="98"
+        android:title="@string/perfil"
+        app:showAsAction="never" />
+</menu>

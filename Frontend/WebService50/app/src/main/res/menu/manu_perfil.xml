@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.odm.webservice50.Tablas.Usuarios.PerfilActivity">
+
+    <item android:id="@+id/menuLogout"
+        android:title="Logout"
+        app:showAsAction="never" />
+    <item android:id="@+id/menuPrincipalPerfil"
+        android:title="Menu"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.odm.webservice50.Tablas.Broadcast.BroadcastFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2KM"
+                android:id="@+id/btn2K"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/etxMensajes"
+                android:layout_weight="0.25" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5KM"
+                android:id="@+id/btn5K"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/button"
+                android:layout_weight="0.25" />
+
+            <EditText
+                android:layout_width="39dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/etxDistancia"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/btnCustomBroad"
+                android:inputType="number"
+                android:layout_weight="0.50"
+                android:numeric="integer" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Custom"
+                android:id="@+id/btnCustomBroad"
+                android:layout_alignParentTop="true" />
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="70">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fabBroadcast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:src="@drawable/ic_add_web"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="@dimen/fab_margin" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/listViewBroadcast2" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    <!--<include layout="@layout/activity_list_view_broadcast" />-->
+
+    </LinearLayout>
+
+
+</RelativeLayout>

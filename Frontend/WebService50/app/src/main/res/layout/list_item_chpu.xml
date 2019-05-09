@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="8dp" >
+
+    <TextView
+        android:id="@+id/tvIDCHPU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textSize="16sp"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="-500dp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tvCHPU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario:"
+        android:textSize="16sp"
+        android:layout_below="@+id/tvIDCHPU"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tvUsuarioCHPU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:textSize="16sp"
+        android:layout_below="@+id/tvIDCHPU"
+        android:layout_toEndOf="@+id/tvCHPU"
+        android:layout_marginStart="5dp" />
+
+    <TextView
+        android:id="@+id/tvConCHPU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mensaje:"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvCHPU"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tvContenidoCHPU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contenido"
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/tvConCHPU"
+        android:layout_toEndOf="@+id/tvConCHPU"
+        android:layout_marginStart="5dp" />
+
+</RelativeLayout>
